@@ -1,0 +1,23 @@
+# 编译产物 - 可执行文件
+http/main
+echo/main
+Test/client1
+Test/client2
+Test/client3
+Test/client4
+Test/client5
+
+# 目标文件
+*.o
+*.obj
+
+# 第三方 WebBench 工具（非本项目代码）
+WebBench-master/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
